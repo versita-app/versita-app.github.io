@@ -64,9 +64,14 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column-reverse;
-  background-image: url(/background-splash.69a8c567.svg);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 1200px) {
+  .hero-section {
+    background-image: url(/background-splash.69a8c567.svg);
+  }
 }
 
 .hero-section > .image {
