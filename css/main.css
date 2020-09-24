@@ -64,6 +64,9 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column-reverse;
+  background-image: url(/img/background-splash.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .hero-section > .image {
