@@ -71,6 +71,7 @@ img {
 @media (min-width: 1200px) {
   .hero-section {
     background-image: url(/img/background-splash.svg);
+    background-position: center;
   }
 }
 
